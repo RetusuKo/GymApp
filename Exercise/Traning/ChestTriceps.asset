@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32332721c3677f44abdde45d986847d2, type: 3}
+  m_Name: ChestTriceps
+  m_EditorClassIdentifier: 
+  _exercise:
+  - {fileID: 11400000, guid: 843612dda18e0144e9fae0189e6e363b, type: 2}
+  - {fileID: 11400000, guid: a9ee7776749601c4f9bcf44380d8429b, type: 2}
+  - {fileID: 11400000, guid: cebcc5a7cf6947d4d85ea43587e6fabb, type: 2}
+  - {fileID: 11400000, guid: bfb120cc0aa54524a80969e36069532c, type: 2}
+  - {fileID: 11400000, guid: 1153e6ffcb216d947871e3203b6615c3, type: 2}
+  - {fileID: 11400000, guid: 19b75812bf52be94ca09c60b861a12c0, type: 2}

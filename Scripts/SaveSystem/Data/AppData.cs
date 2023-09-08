@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AppData
+{
+    public int Workouts;
+
+    public AppData()
+    {
+        Workouts = 0;
+    }
+}
