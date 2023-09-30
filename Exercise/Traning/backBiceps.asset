@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32332721c3677f44abdde45d986847d2, type: 3}
+  m_Name: backBiceps
+  m_EditorClassIdentifier: 
+  _exercise:
+  - {fileID: 11400000, guid: ca8efbeeb82a9d549a9032a6865fcb48, type: 2}
+  - {fileID: 11400000, guid: 84c8f0d4b31476a428afda98dbb0aad0, type: 2}
+  - {fileID: 11400000, guid: 0949e865a3d6386499faceb0b1e504b2, type: 2}
+  - {fileID: 11400000, guid: 1ae405978895b5045b83fc7355c62ce3, type: 2}
+  - {fileID: 11400000, guid: 566ef8aa426316b4a837061acb7fd518, type: 2}
+  - {fileID: 11400000, guid: 018b50e75f08990429b8d7a4c014d197, type: 2}
+  - {fileID: 11400000, guid: 60785970557e9d34d978e9f70074d7a2, type: 2}
+  - {fileID: 11400000, guid: ae10347a67226b44394fd66c50b9193a, type: 2}

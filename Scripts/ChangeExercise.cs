@@ -10,11 +10,14 @@ public class ChangeExercise : MonoBehaviour
 {
     [SerializeField] private Training _training;
     [SerializeField] private ChangeExerciseUI _changeExerciseUI;
+    [SerializeField] private WeightSave _weightSave;
+
 
     private int _currentTrainingNumber = 0;
 
     private void Awake()
     {
+        _training = Info.Training;
         Replace();
     }
     public void NextExercise()
@@ -23,6 +26,10 @@ public class ChangeExercise : MonoBehaviour
         {
             _currentTrainingNumber++;
             Replace();
+        }
+        else if (_currentTrainingNumber == _training.Exercise.Count - 1)
+        {
+            Replace(true);
         }
     }
     public void PreviousExercise()
@@ -33,8 +40,9 @@ public class ChangeExercise : MonoBehaviour
             Replace();
         }
     }
-    private void Replace()
+    private void Replace(bool lastExercise = false)
     {
-        _changeExerciseUI.ReplaceExercise(_training.Exercise[_currentTrainingNumber]);
+        _changeExerciseUI.ReplaceExercise(_training.Exercise[_currentTrainingNumber], lastExercise);
+        _weightSave.LoadExercise();
     }
 }

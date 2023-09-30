@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f90d7f1adc4133e4ea11f093b717d109, type: 3}
   m_Name: Butterfly
   m_EditorClassIdentifier: 
-  _exerciseClip: {fileID: 32900000, guid: 56e04c93f4e5a7d4d8c829b0dc11255f, type: 3}
-  _exerciseTitle: Butterfly
+  _exerciseClip: {fileID: 32900000, guid: 246478e32c0d85f4395a3af1178d5741, type: 3}
+  _exerciseTitle: BenchPressDumbbell
   _focusArea: 
   _equipment: 
   _useWeight: 1

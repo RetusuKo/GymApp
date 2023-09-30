@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32332721c3677f44abdde45d986847d2, type: 3}
+  m_Name: LegsShoulders
+  m_EditorClassIdentifier: 
+  _exercise:
+  - {fileID: 11400000, guid: 33a61fd8e01dc4640951b295b8563762, type: 2}
+  - {fileID: 11400000, guid: 034ccddc7226f964887ae1661b4196d5, type: 2}
+  - {fileID: 11400000, guid: 44575ddaf3e6bc946881811f8948f564, type: 2}
+  - {fileID: 11400000, guid: b2a1d6c625a107e4b99215716e1a1c9d, type: 2}
+  - {fileID: 11400000, guid: 299b0ecbb39da65489744b13bc90df28, type: 2}
+  - {fileID: 11400000, guid: f5ff2139edd7b1749ba58e081918f046, type: 2}
+  - {fileID: 11400000, guid: e43f7cb0f14b9ea4082d9121a7d70001, type: 2}
+  - {fileID: 11400000, guid: 73c09fd1df924594cbe5c66e25a6be16, type: 2}

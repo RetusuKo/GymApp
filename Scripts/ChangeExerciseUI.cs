@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 public class ChangeExerciseUI : MonoBehaviour
@@ -23,9 +24,21 @@ public class ChangeExerciseUI : MonoBehaviour
         _exerciseTitle.text = _exercise.ExerciseTitle;
         _useWeight.SetActive(_exercise.UseWeight);
     }
-    public void ReplaceExercise(Exercise newExercise)
+    public void ReplaceExercise(Exercise newExercise, bool lastExercise = false)
     {
-        _exercise = newExercise;
-        AddInfoToUI();
+        if (!lastExercise)
+        {
+            _exercise = newExercise;
+            AddInfoToUI();
+        }
+        else
+        {
+            EndTraining();
+        }
+    }
+    private void EndTraining()
+    {
+        PlayerPrefs.SetInt("WorkoutCount", PlayerPrefs.GetInt("WorkoutCount") + 1);
+        SceneManager.LoadScene(0);
     }
 }
