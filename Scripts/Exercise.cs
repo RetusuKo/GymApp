@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,7 @@ public class Exercise : ScriptableObject
     [SerializeField] private List<FocusAreaEnum> _focusArea = new List<FocusAreaEnum>();
     [SerializeField] private List<EquipmentEnum> _equipment = new List<EquipmentEnum>();
     [SerializeField] private bool _useWeight;
+
 
     public VideoClip ExerciseClip { get { return _exerciseClip; } }
     public string ExerciseTitle { get { return _exerciseTitle; } }

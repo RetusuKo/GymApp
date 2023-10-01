@@ -12,7 +12,7 @@ public class ChangeExerciseUI : MonoBehaviour
     [SerializeField] private VideoPlayer _exerciseClip;
     [Header("Info")]
     [SerializeField] private TextMeshProUGUI _exerciseTitle;
-    [SerializeField] private GameObject _useWeight;
+    [SerializeField] private List<GameObject> _useWeightObjects= new List<GameObject>();
 
     private void Awake()
     {
@@ -22,7 +22,9 @@ public class ChangeExerciseUI : MonoBehaviour
     {
         _exerciseClip.clip = _exercise.ExerciseClip;
         _exerciseTitle.text = _exercise.ExerciseTitle;
-        _useWeight.SetActive(_exercise.UseWeight);
+        if (_exercise.UseWeight)
+            for (int i = 0; i < _useWeightObjects.Count; i++)
+                _useWeightObjects[i].SetActive(_exercise.UseWeight);
     }
     public void ReplaceExercise(Exercise newExercise, bool lastExercise = false)
     {

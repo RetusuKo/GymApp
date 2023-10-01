@@ -6,7 +6,7 @@ using UnityEngine;
 public class Timer : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _timeTrainingUI;
-    private float _elapsedTime = 58;
+    private float _elapsedTime = 0;
     private bool _canSave = true;
     private void Update()
     {
