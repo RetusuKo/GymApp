@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: fac42e737d11d5046bce8bb18a36aec7, type: 3}
   _exerciseTitle: BarbellCurlBiceps
-  _focusArea: 
+  _focusArea: 0200000003000000
   _equipment: 
   _useWeight: 1

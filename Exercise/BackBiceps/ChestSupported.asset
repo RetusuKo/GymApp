@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 522b978c9a682bd4082213b16879c41e, type: 3}
   _exerciseTitle: Chest Supported
-  _focusArea: 
+  _focusArea: 0200000003000000
   _equipment: 
   _useWeight: 1

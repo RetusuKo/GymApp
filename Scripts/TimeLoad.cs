@@ -6,6 +6,7 @@ using UnityEngine;
 public class TimeLoad : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _time;
+    [SerializeField] private TextMeshProUGUI _timeAtHome;
     public void Initialize()
     {
         LoadExercise();
@@ -13,5 +14,6 @@ public class TimeLoad : MonoBehaviour
     public void LoadExercise()
     {
         _time.text = PlayerPrefs.GetInt("TimeInMinutes").ToString();
+        _timeAtHome.text = PlayerPrefs.GetInt("TimeInMinutesHome").ToString();
     }
 }

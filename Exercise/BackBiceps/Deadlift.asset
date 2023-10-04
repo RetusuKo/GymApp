@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: fcfbfd92ef030ff46b24a83d10ef9057, type: 3}
   _exerciseTitle: Deadlift
-  _focusArea: 
+  _focusArea: 0200000003000000
   _equipment: 
   _useWeight: 1

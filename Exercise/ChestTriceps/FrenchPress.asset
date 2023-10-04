@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 19b572b7bb284b14b9a8ac7b68d54daa, type: 3}
   _exerciseTitle: French Press
-  _focusArea: 
+  _focusArea: 0000000001000000
   _equipment: 
   _useWeight: 1

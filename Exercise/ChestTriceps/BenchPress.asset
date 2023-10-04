@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 9138ac517eb76e64ca930e20c7ebb3f0, type: 3}
   _exerciseTitle: Bench Press
-  _focusArea: 
+  _focusArea: 0000000001000000
   _equipment: 
   _useWeight: 1

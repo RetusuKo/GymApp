@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: cf6437484367d05499076b407ac0d688, type: 3}
   _exerciseTitle: Leg press
-  _focusArea: 
+  _focusArea: 0400000005000000
   _equipment: 
   _useWeight: 1

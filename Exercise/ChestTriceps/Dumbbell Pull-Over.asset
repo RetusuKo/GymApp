@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 47d1ee996a66a1c4fa796ed574ad254b, type: 3}
   _exerciseTitle: Dumbbell Pull-Over
-  _focusArea: 
+  _focusArea: 0000000001000000
   _equipment: 
   _useWeight: 1

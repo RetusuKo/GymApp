@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 457455833a674aa4ab2b88140097bb02, type: 3}
   _exerciseTitle: Pull-ups Bar
-  _focusArea: 
+  _focusArea: 0200000003000000
   _equipment: 
   _useWeight: 0

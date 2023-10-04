@@ -30,7 +30,8 @@ public enum FocusAreaEnum
     Back,
     Biceps,
     Legs,
-    Shoulders
+    Shoulders,
+    ABS
 }
 public enum EquipmentEnum
 {

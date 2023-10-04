@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 9514d27c6cb7da94f89533b51576bed7, type: 3}
   _exerciseTitle: UpperBlockRowChest
-  _focusArea: 
+  _focusArea: 0200000003000000
   _equipment: 
   _useWeight: 1

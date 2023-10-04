@@ -8,6 +8,8 @@ public class Timer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _timeTrainingUI;
     private float _elapsedTime = 0;
     private bool _canSave = true;
+    private Exercise _exercise;
+
     private void Update()
     {
         _elapsedTime += Time.deltaTime;
@@ -26,57 +28,23 @@ public class Timer : MonoBehaviour
     {
         _canSave = false;
         WaitSec();
-        int current = PlayerPrefs.GetInt("TimeInMinutes", 0);
+        string timeKey = _exercise.FocusArea[0] == FocusAreaEnum.ABS ? "TimeInMinutesHome" : "TimeInMinutes";
+        int current = PlayerPrefs.GetInt(timeKey, 0);
         current++;
-        PlayerPrefs.SetInt("TimeInMinutes", current);
+        PlayerPrefs.SetInt(timeKey, current);
         print("save");
     }
+    public void ReplaceExercise(Exercise newExercise, bool lastExercise = false)
+    {
+        if (!lastExercise)
+        {
+            _exercise = newExercise;
+        }
+    }
+
     public IEnumerator WaitSec()
     {
         yield return new WaitForSeconds(1);
         _canSave = true;
     }
-    //[SerializeField] private TextMeshProUGUI _timeTrainingUI;
-    //private int _minutes = 0;
-    //private int _seconds = 60;
-    //private float _timeLeft;
-
-    //private void Start()
-    //{
-    //    _timeLeft = _seconds;
-    //}
-    //private void Update()
-    //{
-    //    if (_timeLeft > 0)
-    //    {
-    //        _timeLeft -= Time.deltaTime;
-    //        UpdateTimeUI();
-    //    }
-    //    else
-    //    {
-    //        SaveExerciseAndResetTimer();
-    //    }
-    //}
-
-    //private void SaveExerciseAndResetTimer()
-    //{
-    //    int current = PlayerPrefs.GetInt("TimeInMinutes", 0);
-    //    current++;
-    //    PlayerPrefs.SetInt("TimeInMinutes", current);
-    //    ResetTimer();
-    //}
-
-    //private void ResetTimer()
-    //{
-    //    _minutes++;
-    //    _seconds = 60;
-    //    _timeLeft = _seconds;
-    //    UpdateTimeUI();
-    //}
-    //private void UpdateTimeUI()
-    //{
-    //    int displayMinutes = Mathf.FloorToInt(_timeLeft / 60);
-    //    int displaySeconds = Mathf.FloorToInt(_timeLeft % 60);
-    //    _timeTrainingUI.text = string.Format("{0:D2}:{1:D2}", displayMinutes, displaySeconds);
-    //}
 }

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 44b3f7822f7b35c408025d9592909eb7, type: 3}
   _exerciseTitle: Tate press
-  _focusArea: 
+  _focusArea: 0000000001000000
   _equipment: 
   _useWeight: 1

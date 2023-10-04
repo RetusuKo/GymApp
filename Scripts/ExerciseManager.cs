@@ -15,13 +15,11 @@ public class ExerciseManager : MonoBehaviour
     }
     private void SaveWeight(int valueWeight)
     {
-        for (int i = 0; i < _weight.Count; i++)
-            PlayerPrefs.SetInt(_exerciseName.text + "Weight" + i, valueWeight);
+        PlayerPrefs.SetInt(_exerciseName.text + "Weight", valueWeight);
     }
     private void SaveRepetition(int valueRepetition)
     {
-        for (int i = 0; i < _repetitions.Count; i++)
-            PlayerPrefs.SetInt(_exerciseName.text + "Repetitions" + i, valueRepetition);
+        PlayerPrefs.SetInt(_exerciseName.text + "Repetitions", valueRepetition);
     }
     public void Load()
     {
@@ -29,7 +27,6 @@ public class ExerciseManager : MonoBehaviour
         {
             _weight[i].text = PlayerPrefs.GetInt(_exerciseName.text + "Weight" + i).ToString();
             _repetitions[i].text = PlayerPrefs.GetInt(_exerciseName.text + "Repetitions" + i).ToString();
-            print(_weight[i].text);
         }
     }
     public void TextWeight_Changed(string newText)

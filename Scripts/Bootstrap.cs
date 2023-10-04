@@ -9,6 +9,10 @@ public class Bootstrap : MonoBehaviour
     [SerializeField] private TimeLoad _timeLoad;
     private void Awake()
     {
+        Load();
+    }
+    public void Load()
+    {
         _weightLoad.Initialize();
         _timeLoad.Initialize();
     }

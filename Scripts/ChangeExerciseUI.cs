@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,9 +13,9 @@ public class ChangeExerciseUI : MonoBehaviour
     [SerializeField] private VideoPlayer _exerciseClip;
     [Header("Info")]
     [SerializeField] private TextMeshProUGUI _exerciseTitle;
-    [SerializeField] private List<GameObject> _useWeightObjects= new List<GameObject>();
+    [SerializeField] private List<GameObject> _useWeightObjects = new List<GameObject>();
 
-    private void Awake()
+    private void Start()
     {
         AddInfoToUI();
     }
@@ -22,9 +23,9 @@ public class ChangeExerciseUI : MonoBehaviour
     {
         _exerciseClip.clip = _exercise.ExerciseClip;
         _exerciseTitle.text = _exercise.ExerciseTitle;
-        if (_exercise.UseWeight)
-            for (int i = 0; i < _useWeightObjects.Count; i++)
-                _useWeightObjects[i].SetActive(_exercise.UseWeight);
+        for (int i = 0; i < _useWeightObjects.Count; i++)
+            _useWeightObjects[i].SetActive(_exercise.UseWeight);
+        _exerciseClip.Pause();
     }
     public void ReplaceExercise(Exercise newExercise, bool lastExercise = false)
     {
@@ -40,7 +41,10 @@ public class ChangeExerciseUI : MonoBehaviour
     }
     private void EndTraining()
     {
-        PlayerPrefs.SetInt("WorkoutCount", PlayerPrefs.GetInt("WorkoutCount") + 1);
+        if (_exercise.FocusArea[0] == FocusAreaEnum.ABS)
+            PlayerPrefs.SetInt("WorkoutCountHome", PlayerPrefs.GetInt("WorkoutCountHome") + 1);
+        else
+            PlayerPrefs.SetInt("WorkoutCount", PlayerPrefs.GetInt("WorkoutCount") + 1);
         SceneManager.LoadScene(0);
     }
 }

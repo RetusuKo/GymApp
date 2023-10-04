@@ -10,6 +10,7 @@ public class ChangeExercise : MonoBehaviour
 {
     [SerializeField] private Training _training;
     [SerializeField] private ChangeExerciseUI _changeExerciseUI;
+    [SerializeField] private Timer _timer;
     [SerializeField] private ExerciseManager _weightSave;
 
 
@@ -43,6 +44,7 @@ public class ChangeExercise : MonoBehaviour
     private void Replace(bool lastExercise = false)
     {
         _changeExerciseUI.ReplaceExercise(_training.Exercise[_currentTrainingNumber], lastExercise);
+        _timer.ReplaceExercise(_training.Exercise[_currentTrainingNumber], lastExercise);
         _weightSave.Load();
     }
 }

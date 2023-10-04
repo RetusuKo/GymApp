@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: facfce433e6d1c9409d26f2d5520f524, type: 3}
   _exerciseTitle: Wiring dumbbells
-  _focusArea: 
+  _focusArea: 0000000001000000
   _equipment: 
   _useWeight: 1

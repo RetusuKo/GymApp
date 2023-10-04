@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 2f8c684694804194985534f5221745f8, type: 3}
   _exerciseTitle: Leg Extensions
-  _focusArea: 
+  _focusArea: 0400000005000000
   _equipment: 
   _useWeight: 1

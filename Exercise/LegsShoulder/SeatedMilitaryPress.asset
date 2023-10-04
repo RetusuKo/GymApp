@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: f5f78315edbe72d4e8568f9b891de5fc, type: 3}
   _exerciseTitle: Seated Military Press
-  _focusArea: 
+  _focusArea: 0400000005000000
   _equipment: 
   _useWeight: 1

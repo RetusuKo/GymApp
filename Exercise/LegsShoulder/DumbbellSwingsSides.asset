@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 9f17323958ac4b64b9556804e4750cbe, type: 3}
   _exerciseTitle: Dumbbell swings to the sides
-  _focusArea: 
+  _focusArea: 0400000005000000
   _equipment: 
   _useWeight: 1

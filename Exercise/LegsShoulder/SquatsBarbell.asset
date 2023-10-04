@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 23bbc771932103148b93a0426a472921, type: 3}
   _exerciseTitle: Squats with a barbell
-  _focusArea: 
+  _focusArea: 0400000005000000
   _equipment: 
   _useWeight: 1
