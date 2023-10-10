@@ -11,6 +11,7 @@ public class ChangeExerciseUI : MonoBehaviour
     [SerializeField] private Exercise _exercise;
     [Header("Video")]
     [SerializeField] private VideoPlayer _exerciseClip;
+    [SerializeField] private OnlineVideoLoader _onlineVideoLoader;
     [Header("Info")]
     [SerializeField] private TextMeshProUGUI _exerciseTitle;
     [SerializeField] private List<GameObject> _useWeightObjects = new List<GameObject>();
@@ -21,11 +22,11 @@ public class ChangeExerciseUI : MonoBehaviour
     }
     private void AddInfoToUI()
     {
-        _exerciseClip.clip = _exercise.ExerciseClip;
+        _onlineVideoLoader.VideoUrlExerciseName = _exercise.ExerciseTitle;
+        _onlineVideoLoader.ChangeUrl();
         _exerciseTitle.text = _exercise.ExerciseTitle;
         for (int i = 0; i < _useWeightObjects.Count; i++)
             _useWeightObjects[i].SetActive(_exercise.UseWeight);
-        _exerciseClip.Pause();
     }
     public void ReplaceExercise(Exercise newExercise, bool lastExercise = false)
     {

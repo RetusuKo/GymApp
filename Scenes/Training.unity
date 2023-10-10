@@ -2212,6 +2212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 553940232}
   - component: {fileID: 553940231}
+  - component: {fileID: 553940233}
   m_Layer: 0
   m_Name: Video Player
   m_TagString: Untagged
@@ -2270,6 +2271,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &553940233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553940230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd79aa620606690479d4a3631c2db2c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &568271237
 GameObject:
   m_ObjectHideFlags: 0
@@ -4936,6 +4949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _exercise: {fileID: 11400000, guid: 19b75812bf52be94ca09c60b861a12c0, type: 2}
   _exerciseClip: {fileID: 553940231}
+  _onlineVideoLoader: {fileID: 553940233}
   _exerciseTitle: {fileID: 1370885626}
   _useWeightObjects:
   - {fileID: 1006096906}
