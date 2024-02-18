@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f90d7f1adc4133e4ea11f093b717d109, type: 3}
-  m_Name: BarbellCurlBiceps
+  m_Name: InclineBenchPress
   m_EditorClassIdentifier: 
-  _exerciseClip: {fileID: 32900000, guid: fac42e737d11d5046bce8bb18a36aec7, type: 3}
-  _exerciseTitle: Barbell Curl Biceps
-  _focusArea: 0200000003000000
+  _exerciseClip: {fileID: 32900000, guid: d12beb1fcbe745445884773590544ce9, type: 3}
+  _exerciseTitle: InclineBenchPress
+  _focusArea: 00000000
   _equipment: 
   _useWeight: 1

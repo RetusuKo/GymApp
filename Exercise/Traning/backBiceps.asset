@@ -16,8 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ca8efbeeb82a9d549a9032a6865fcb48, type: 2}
   - {fileID: 11400000, guid: 84c8f0d4b31476a428afda98dbb0aad0, type: 2}
   - {fileID: 11400000, guid: 0949e865a3d6386499faceb0b1e504b2, type: 2}
-  - {fileID: 11400000, guid: 1ae405978895b5045b83fc7355c62ce3, type: 2}
-  - {fileID: 11400000, guid: 566ef8aa426316b4a837061acb7fd518, type: 2}
-  - {fileID: 11400000, guid: 018b50e75f08990429b8d7a4c014d197, type: 2}
+  - {fileID: 11400000, guid: 5d76d297f15a1ee41bbdef1b5698ceda, type: 2}
   - {fileID: 11400000, guid: 60785970557e9d34d978e9f70074d7a2, type: 2}
+  - {fileID: 11400000, guid: 1ae405978895b5045b83fc7355c62ce3, type: 2}
+  - {fileID: 11400000, guid: 5fdfbbce63c04a14eadc064bc8f7e48f, type: 2}
   - {fileID: 11400000, guid: ae10347a67226b44394fd66c50b9193a, type: 2}
+  _name: BackBiceps

@@ -15,9 +15,10 @@ MonoBehaviour:
   _exercise:
   - {fileID: 11400000, guid: 843612dda18e0144e9fae0189e6e363b, type: 2}
   - {fileID: 11400000, guid: a9ee7776749601c4f9bcf44380d8429b, type: 2}
-  - {fileID: 11400000, guid: cebcc5a7cf6947d4d85ea43587e6fabb, type: 2}
+  - {fileID: 11400000, guid: b517a66e1b741d645b42ca84e2cb83e9, type: 2}
   - {fileID: 11400000, guid: bfb120cc0aa54524a80969e36069532c, type: 2}
-  - {fileID: 11400000, guid: ec4ec8f38a10c4c41a18a8677eba50f0, type: 2}
-  - {fileID: 11400000, guid: 143856f87c0ba4141896e69a0f28fbfd, type: 2}
+  - {fileID: 11400000, guid: d7878bb5abca01141b383a8d51259293, type: 2}
+  - {fileID: 11400000, guid: c65eff28799132448bd1deb59eaf0bbf, type: 2}
   - {fileID: 11400000, guid: 1153e6ffcb216d947871e3203b6615c3, type: 2}
   - {fileID: 11400000, guid: 19b75812bf52be94ca09c60b861a12c0, type: 2}
+  _name: ChestTriceps

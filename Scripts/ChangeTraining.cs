@@ -10,4 +10,9 @@ public class ChangeTraining : MonoBehaviour
         Info.Training = training;
         print("Training change");
     }
+    public void AddData(Training training)
+    {
+        Info.Training = training;
+        print("Training change");
+    }
 }

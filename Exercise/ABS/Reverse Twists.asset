@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Reverse Twists
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: b512a3990639cab4ea28e134d05f7440, type: 3}
-  _exerciseTitle: Reverse TTwists
+  _exerciseTitle: Reverse Twists
   _focusArea: 06000000
   _equipment: 
   _useWeight: 0

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f90d7f1adc4133e4ea11f093b717d109, type: 3}
-  m_Name: BarbellCurlBiceps
+  m_Name: FrontRaises
   m_EditorClassIdentifier: 
-  _exerciseClip: {fileID: 32900000, guid: fac42e737d11d5046bce8bb18a36aec7, type: 3}
-  _exerciseTitle: Barbell Curl Biceps
-  _focusArea: 0200000003000000
+  _exerciseClip: {fileID: 32900000, guid: b4c64d71a9b9bab45bfea13a5fbb0e87, type: 3}
+  _exerciseTitle: FrontRaises
+  _focusArea: 05000000
   _equipment: 
   _useWeight: 1

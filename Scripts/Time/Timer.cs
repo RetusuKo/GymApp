@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Timer : MonoBehaviour
+public class Timer : MonoBehaviour, ISaveDataPersistence, ILoadDataPersistence
 {
     [SerializeField] private TextMeshProUGUI _timeTrainingUI;
-    private float _elapsedTime = 0;
+    private float _elapsedTime = 1;
     private bool _canSave = true;
     private Exercise _exercise;
+
+    private int _timeInMinutes;
+    private int _timeInMinutesHome;
 
     private void Update()
     {
@@ -27,24 +30,34 @@ public class Timer : MonoBehaviour
     private void SaveExerciseAndResetTimer()
     {
         _canSave = false;
-        WaitSec();
-        string timeKey = _exercise.FocusArea[0] == FocusAreaEnum.ABS ? "TimeInMinutesHome" : "TimeInMinutes";
-        int current = PlayerPrefs.GetInt(timeKey, 0);
-        current++;
-        PlayerPrefs.SetInt(timeKey, current);
-        print("save");
+        StartCoroutine(WaitSec());
+        if (_exercise.FocusArea[0] == FocusAreaEnum.ABS)
+            _timeInMinutesHome++;
+        else
+            _timeInMinutes++;
+        DataPersistenceManager.Instance.SaveData();
     }
     public void ReplaceExercise(Exercise newExercise, bool lastExercise = false)
     {
         if (!lastExercise)
-        {
             _exercise = newExercise;
-        }
     }
 
     public IEnumerator WaitSec()
     {
         yield return new WaitForSeconds(1);
         _canSave = true;
+    }
+
+    public void SaveData(Data data)
+    {
+        data.TimeInMinutes = _timeInMinutes;
+        data.TimeInMinutesHome = _timeInMinutesHome;
+    }
+
+    public void LoadData(Data data)
+    {
+        _timeInMinutes = data.TimeInMinutes;
+        _timeInMinutesHome = data.TimeInMinutesHome;
     }
 }
