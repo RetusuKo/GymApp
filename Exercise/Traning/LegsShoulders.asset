@@ -18,7 +18,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 44575ddaf3e6bc946881811f8948f564, type: 2}
   - {fileID: 11400000, guid: b2a1d6c625a107e4b99215716e1a1c9d, type: 2}
   - {fileID: 11400000, guid: d47c07de6c1e8564f9ad96fb28033f8f, type: 2}
-  - {fileID: 11400000, guid: bddffdda640def54b809c38aa22bf9e6, type: 2}
   - {fileID: 11400000, guid: e43f7cb0f14b9ea4082d9121a7d70001, type: 2}
+  - {fileID: 11400000, guid: bddffdda640def54b809c38aa22bf9e6, type: 2}
   - {fileID: 11400000, guid: dbc8f89ba8094b544ac211cb5e7d52b7, type: 2}
   _name: LegsShoulder

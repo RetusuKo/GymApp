@@ -18,7 +18,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b517a66e1b741d645b42ca84e2cb83e9, type: 2}
   - {fileID: 11400000, guid: bfb120cc0aa54524a80969e36069532c, type: 2}
   - {fileID: 11400000, guid: d7878bb5abca01141b383a8d51259293, type: 2}
-  - {fileID: 11400000, guid: c65eff28799132448bd1deb59eaf0bbf, type: 2}
   - {fileID: 11400000, guid: 1153e6ffcb216d947871e3203b6615c3, type: 2}
+  - {fileID: 11400000, guid: c65eff28799132448bd1deb59eaf0bbf, type: 2}
   - {fileID: 11400000, guid: 19b75812bf52be94ca09c60b861a12c0, type: 2}
   _name: ChestTriceps
