@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32332721c3677f44abdde45d986847d2, type: 3}
+  m_Name: FullBody
+  m_EditorClassIdentifier: 
+  _exercise:
+  - {fileID: 11400000, guid: 203143d6a9432994494ec40a1ac3f6f5, type: 2}
+  - {fileID: 11400000, guid: 95d3660618db34d4c8bbc593ffe0de18, type: 2}
+  - {fileID: 11400000, guid: 7cb3bdb74523e3342aa82e274690b185, type: 2}
+  - {fileID: 11400000, guid: 320e8b8911148394792b9771d82bc862, type: 2}
+  - {fileID: 11400000, guid: a5b7674bc602d6f4287df87bb8a9e442, type: 2}
+  - {fileID: 11400000, guid: 7c13c046be4fcdf4f9d8cec7792ee99a, type: 2}
+  - {fileID: 11400000, guid: 957529228f518e948b749245f1e0e8bf, type: 2}
+  - {fileID: 11400000, guid: 357de8944673a904c96a50b505aab4c1, type: 2}
+  _name: Full Body

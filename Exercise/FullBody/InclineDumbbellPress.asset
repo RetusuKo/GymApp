@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f90d7f1adc4133e4ea11f093b717d109, type: 3}
-  m_Name: DbRearDeltRowsShoulder
+  m_Name: InclineDumbbellPress
   m_EditorClassIdentifier: 
-  _exerciseClip: {fileID: 32900000, guid: 3a5edede4ac77cf498c30514ec573cc4, type: 3}
-  _exerciseTitle: db rear delt rows
-  _focusArea: 
+  _exerciseClip: {fileID: 32900000, guid: d12beb1fcbe745445884773590544ce9, type: 3}
+  _exerciseTitle: Incline dumbbell press
+  _focusArea: 00000000
   _equipment: 
   _useWeight: 1
