@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BarbellRow Full
   m_EditorClassIdentifier: 
   _exerciseClip: {fileID: 32900000, guid: 59a427c75544d1c4a9fd53f1286aec20, type: 3}
-  _exerciseTitle: Barbell Row
+  _exerciseTitle: Barbell Row Full
   _focusArea: 02000000
   _equipment: 
   _useWeight: 1
